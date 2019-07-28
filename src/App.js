@@ -1,12 +1,11 @@
 import React from 'react';
+
+import Main from './pages/Main';
+
 import './App.css';
 
 function App() {
-	return (
-		<div className="App">
-			<h1>Dropbox Clone</h1>
-		</div>
-	);
+	return <Main />;
 }
 
 export default App;
