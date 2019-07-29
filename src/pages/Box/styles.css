@@ -11,6 +11,7 @@
 
 #box-container header img {
 	width: 12rem;
+	cursor: pointer;
 }
 
 #box-container header h1 {

@@ -48,11 +48,15 @@ export default class Box extends Component {
 		});
 	};
 
+	handleReturn = () => {
+		this.props.history.push('/');
+	};
+
 	render() {
 		return (
 			<div id="box-container">
 				<header>
-					<img src={logo2} alt="" />
+					<img onClick={this.handleReturn} src={logo2} alt="" />
 					<h1>{this.state.box.title}</h1>
 				</header>
 
