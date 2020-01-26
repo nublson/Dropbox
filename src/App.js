@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.scss'
 
+import Main from './pages/Main'
+
 function App() {
 	return (
-		<div className='App'>
-			<h1>Dropbox Clone</h1>
-		</div>
+		<>
+			<Main />
+		</>
 	)
 }
 
