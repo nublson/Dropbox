@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.scss'
 
-import Main from './pages/Main'
+import Routes from './routes'
 
 function App() {
 	return (
 		<>
-			<Main />
+			<Routes />
 		</>
 	)
 }
