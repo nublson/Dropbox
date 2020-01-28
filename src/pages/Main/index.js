@@ -15,7 +15,7 @@ const Main = ({ history }) => {
 					const response = await api.post('/boxes', { title })
 					const { _id } = response.data
 
-					history.push(`Box/${_id}`)
+					history.push(`box/${_id}`)
 
 					action.resetForm()
 				}}
