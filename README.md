@@ -1,6 +1,6 @@
 # Dropbox (Frontend w/ React.js)
 
-![Dropbox Preview](./thumbnail.png)
+![Dropbox Preview](./dropbox.png)
 
 This is the Dropbox CLone, a simples web app that allows users to upload files and save then in the cloud with Drag and Drop feature.
 
